@@ -1,7 +1,11 @@
-SPDX-License-Identifier: MIT
-
 # Python_product-encoder
 
+## 📖 写在最前面
+> 该项目基于 Python 3.10.8 开发，使用 PyQt5 作为 UI 框架，公司内部相关数据以用虚拟数据代替。
+
+---
+
+## ⚙️ 介绍
 > 一个用于生成内部产品编码的小程序，用于配合内部plm系统使用
 
 ---
@@ -52,12 +56,15 @@ SPDX-License-Identifier: MIT
 ---
 
 ## 🚫 版权说明
-   - 该项目签署了MIT 授权许可，详情请参阅 [LICENSE](https://github.com/yijiu2333/Python_produce-encoder/blob/main/LICENSE)
-   - 本项目为学习/作品集展示用途，如需商业使用，请自行替换相关资源。
-   - 若引用开源代码，均已按对应许可证要求保留原始版权信息。
+   - 整体项目：以 GPL-3.0 许可证发布（详见 LICENSE）
+   - 第三方组件：
+        - 界面框架 PyQt-Fluent-Widgets 采用 GPL-3.0，其源码已按许可证要求随附于 third_party/ 目录。
+        - 其余引用的开源代码均已保留原始版权信息及许可证文件。
+   - 使用限制：本项目仅供学习/作品集展示，内部包含的非商用资源（如示例图标、图片、字体。UI组件等）请自行替换后方可用于商业场景。
    - json文件中均为虚拟数据，仅用于程序功能展示，纯属虚构，不代表真实情况。
 
 ---
 
 ## 📄 许可证
-   [MIT](https://github.com/yijiu2333/Python_produce-encoder/blob/main/LICENSE) © yijiu2333
+   - 本项目整体以 **GPL-3.0** 发布  
+   - 使用的 UI 库 [PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) 亦为 GPLv3[^12^]
